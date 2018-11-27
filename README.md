@@ -16,9 +16,16 @@ Bayesian GAN to measure the Frchet Inception Distance (FID) and also show the ta
 	- RAM: 20 GB DDR4-2400
 	- GPU: GeForce GTX 980
 
-## Result of Vanilla GAN and VBGAN
+## Result of VBGAN_Wasserstein metric
  <img src="figures/gan/Iteration_10000.png" width="400">  <img src="figures/vbgan/Iteration_10000.png" width="400"> 
 
  <img src="figures/gan/Iteration_20000.png" width="400/">  <img src="figures/vbgan/Iteration_20000.png" width="400/"> 
 
  <img src="figures/gan/Iteration_30000.png" width="400">  <img src="figures/vbgan/Iteration_30000.png" width="400"> 
+ 
+ 
+ 
+ 
+ 
+ ## Fréchet Inception Distance
+<img src="figures/FID.png" width="400"> 
