@@ -28,4 +28,4 @@ Bayesian GAN to measure the Frchet Inception Distance (FID) and also show the ta
  
  
  ## Fréchet Inception Distance
-<img src="figures/FID.png" width="400"> 
+<img src="figures/FID.PNG" width="400"> 
