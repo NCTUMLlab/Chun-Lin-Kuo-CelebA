@@ -3,6 +3,10 @@ CelebA is a large-scale face attributes dataset with more than 200K celebrity im
 Bayesian GAN to measure the Frchet Inception Distance (FID) and also show the table below
 
 
+Bayesian CNN credit to https://github.com/felix-laumann/Bayesian_CNN
+
+FID credit to https://github.com/mseitzer/pytorch-fid
+
 <p align="center">
   <img src="figures/Model_slide.PNG" width="450">
   <img src="figures/Model_slide_w.PNG" width="450">
