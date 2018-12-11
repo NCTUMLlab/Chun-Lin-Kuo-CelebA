@@ -29,4 +29,7 @@ Bayesian GAN to measure the Frchet Inception Distance (FID) and also show the ta
  ## Fréchet Inception Distance
  To compute the FID score between two datasets, where images of each dataset are contained in an individual folder:
  ./fid_score.py path_dataset1 path_dataset2
+ 
+<p align="center">
 <img src="figures/FID.PNG" width="400"> 
+</p>
