@@ -42,7 +42,7 @@ FID credit to https://github.com/mseitzer/pytorch-fid
 <img src="figures/3.png" width="400/"> <img src="figures/4.png" width="400/"> 
  
  
- ## Fréchet Inception Distance
+ ## Fréchet Inception Distance (the lower, the better)
  
 <p align="center">
 <img src="figures/FID.PNG" width="400"> 
