@@ -1,6 +1,16 @@
 # Variational Bayesian GAN for Face generation
-CelebA is a large-scale face attributes dataset with more than 200K celebrity images, each with 40 attribute annotations. The images in this dataset cover large pose variations and background clutter. CelebA has large diversities, large quantities, and rich annotations, including 10177 number of identities, 202,599 number of face image, and 5 landmark locations, 40 binary attributes annotations per image. We do the experiment on this dataset with align using similarity transformation according to the two eye locations and cropped in image generation task. In practice we also resized it to 64 * 64 and trained without annotation in unsupervised way. We show the results from our proposed and Bayesian GAN below. To quantify the quality of our results, we sample 1k and 10k of our proposed and
-Bayesian GAN to measure the Frchet Inception Distance (FID) and also show the table below
+* CelebFaces Attributes Dataset (CelebA) is a large-scale face attributes dataset with more than 200K celebrity images, each with 40 attribute annotations. The images in this dataset cover large pose variations and background clutter. CelebA has large diversities, large quantities, and rich annotations, including
+
+    * 10,177 number of identities,
+
+    * 202,599 number of face images, and
+
+    * 5 landmark locations, 40 binary attributes annotations per image
+* We do the experiment on this dataset with align using similarity transformation according to the two eye locations and cropped in image generation task. 
+    *  resized images to 64 * 64
+    *  without annotation in unsupervised way.
+    *  sample 1k and 10k images to measure the Frchet Inception Distance (FID) and show the result table below
+
 
 
 Bayesian GAN credit to https://github.com/vasiloglou/mltrain-nips-2017/blob/master/ben_athiwaratkun/pytorch-bayesgan/Bayesian%20GAN%20in%20PyTorch.ipynb
