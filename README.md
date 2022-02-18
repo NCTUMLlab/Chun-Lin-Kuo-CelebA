@@ -9,7 +9,7 @@
 * We do the experiment on this dataset with align using similarity transformation according to the two eye locations and cropped in image generation task. 
     *  resized images to 64 * 64
     *  without annotation in unsupervised way.
-    *  sample 1k and 10k images to measure the Frchet Inception Distance (FID) and show the result table below
+    *  sample 1k and 10k images to measure the Frchet Inception Distance (FID) beteween sample data and real data
 
 
 
@@ -43,8 +43,6 @@ FID credit to https://github.com/mseitzer/pytorch-fid
  
  
  ## Fréchet Inception Distance
- To compute the FID score between two datasets, where images of each dataset are contained in an individual folder:
- ./fid_score.py path_dataset1 path_dataset2
  
 <p align="center">
 <img src="figures/FID.PNG" width="400"> 
