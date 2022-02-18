@@ -21,7 +21,12 @@ FID credit to https://github.com/mseitzer/pytorch-fid
 
 <p align="center">
   <img src="figures/Model_slide.PNG" width="450">
+  <em>VBGAN</em>
+</p>
+
+<p align="center">
   <img src="figures/Model_slide_w.PNG" width="450">
+  <em>VBGAN with wasserstein metric</em>
 </p>
 
 ## Setting
