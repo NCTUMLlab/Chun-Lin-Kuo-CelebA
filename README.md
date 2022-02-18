@@ -18,7 +18,7 @@ Bayesian GAN credit to https://github.com/vasiloglou/mltrain-nips-2017/blob/mast
 Bayesian CNN credit to https://github.com/felix-laumann/Bayesian_CNN
 
 FID credit to https://github.com/mseitzer/pytorch-fid
-
+* Our Model Architecture
 <p align="center">
   <img src="figures/Model_slide.PNG" width="450">
   <em>VBGAN</em>
